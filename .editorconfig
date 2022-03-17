@@ -1,0 +1,17 @@
+# 告诉EditorConfig插件，这是根文件，不用继续往上查找
+root = true
+
+# 匹配全部文件
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true # 在文件结尾插入新行
+trim_trailing_whitespace = true # 删除一行中的前后空格
+
+# 以下匹配，类同
+[Makefile]
+indent_style = tab
+# tab的宽度
+tab_width = 4
