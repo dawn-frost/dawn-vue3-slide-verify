@@ -167,7 +167,7 @@ public function check(Request $request, array $params, string $type = self::TYPE
 # 参数
 name |类型 |  备注 |  默认值  
 -|-|-|-
-l | Number |block length | 5 |
+l | Number |block length | 42 |
 r | Number |block radius | 10 |
 w | Number |canvas width | 310 |
 h | Number |canvas height | 155 |
